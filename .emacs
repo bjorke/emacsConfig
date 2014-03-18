@@ -1,3 +1,5 @@
+(setq mac-command-modifier 'meta) ; sets the Command key to Meta
+(global-set-key (kbd "M-<") 'other-frame)
 (global-set-key (kbd "C-x <up>") 'windmove-up)
 (global-set-key (kbd "C-x <down>") 'windmove-down)
 (global-set-key (kbd "C-x <right>") 'windmove-right)
