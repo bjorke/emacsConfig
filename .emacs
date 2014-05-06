@@ -6,6 +6,9 @@
 (load-file "/Users/ludwig/emacsPlugins/emacs-for-python/epy-init.el")
 ;; go mode                                                                                           
 (setq load-path (cons "/usr/local/go/misc/emacs" load-path))                                         
+(add-to-list 'ac-modes 'go-mode)
+;; (require 'go-autocomplete)
+(require 'auto-complete-config)
 (require 'go-mode-load)
 (global-linum-mode t)
 (set-face-attribute 'default nil :height 180)
